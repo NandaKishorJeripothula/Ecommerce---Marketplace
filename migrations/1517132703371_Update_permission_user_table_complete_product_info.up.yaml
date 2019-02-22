@@ -1,0 +1,17 @@
+- args:
+    permission:
+      columns:
+      - product_id
+      - product_name
+      - price
+      - product_description
+      - sub_category_id
+      - sub_category_name
+      - category_id
+      - category_name
+      - seller_id
+      - seller_name
+      filter: {}
+    role: user
+    table: complete_product_info
+  type: create_select_permission

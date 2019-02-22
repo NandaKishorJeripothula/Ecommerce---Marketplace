@@ -1,0 +1,3 @@
+- args:
+    sql: ALTER TABLE "order" DROP COLUMN "items_id"
+  type: run_sql

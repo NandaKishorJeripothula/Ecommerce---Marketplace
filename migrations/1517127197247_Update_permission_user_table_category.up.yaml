@@ -1,0 +1,9 @@
+- args:
+    permission:
+      columns:
+      - id
+      - name
+      filter: {}
+    role: user
+    table: category
+  type: create_update_permission

@@ -1,0 +1,18 @@
+.productCard{
+	margin-right: 5px;
+	text-align: center;
+}
+
+.productCardLink{
+	text-decoration: none;
+	color: black;
+}
+
+.zoom{
+	text-decoration: none;
+	color: black;
+}
+
+.card-text{
+	color: #388e3c;
+}

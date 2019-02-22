@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "offers"("id" bigserial NOT NULL, "product_id" bigserial NOT
+      NULL, PRIMARY KEY ("id") )
+  type: run_sql
+- args:
+    name: offers
+  type: add_existing_table_or_view

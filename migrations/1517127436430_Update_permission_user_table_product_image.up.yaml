@@ -1,0 +1,11 @@
+- args:
+    permission:
+      columns:
+      - url
+      - sequence_number
+      - id
+      - product_id
+      filter: {}
+    role: user
+    table: product_image
+  type: create_select_permission

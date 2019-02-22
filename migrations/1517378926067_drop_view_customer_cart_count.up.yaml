@@ -1,0 +1,3 @@
+- args:
+    sql: DROP VIEW "customer_cart_count"
+  type: run_sql

@@ -1,0 +1,14 @@
+- args:
+    permission:
+      columns:
+      - email_address
+      - password
+      - hasura_id
+      - first_name
+      - phone_number
+      - last_name
+      - id
+      filter: {}
+    role: user
+    table: seller
+  type: create_select_permission

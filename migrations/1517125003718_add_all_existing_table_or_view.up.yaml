@@ -1,0 +1,9 @@
+- args:
+    name: product_image
+  type: add_existing_table_or_view
+- args:
+    name: seller
+  type: add_existing_table_or_view
+- args:
+    name: product
+  type: add_existing_table_or_view

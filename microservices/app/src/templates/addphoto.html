@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{%block content%}
+	<article>
+		<header>
+        	<h1>{% block title%}Task 7{% endblock %}</h1>
+        </header>
+        <section>
+			<form action="/add_product" method="POST" enctype=multipart/form-data>
+	Name: <input type="text" name="product_name"><br>
+	Price: <input type="text" name="price"><br>
+	Description: <textarea name="description" rows=3 cols="40"></textarea><br>
+	Image: <input type="file" name="filename"><br>
+	Category: <select name="category">
+			<option value="1">mobiles</option>
+			<option value="2">laptops</option>
+			<option value="3">televisions</option>
+			<option value="4">children</option>
+			<option value="5">literature</option>
+	</select><br>
+	<input type="submit">
+
+				</table>
+			</form>
+		</section>
+	</article>
+	
+{% endblock %}

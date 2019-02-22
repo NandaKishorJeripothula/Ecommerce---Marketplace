@@ -1,0 +1,10 @@
+- args:
+    permission:
+      columns:
+      - product_id
+      - id
+      - offer_image_url
+      filter: {}
+    role: user
+    table: offers
+  type: create_select_permission

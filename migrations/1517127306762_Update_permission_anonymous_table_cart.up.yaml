@@ -1,0 +1,12 @@
+- args:
+    permission:
+      columns:
+      - quantity
+      - created_at
+      - id
+      - customer_id
+      - product_id
+      filter: {}
+    role: anonymous
+    table: cart
+  type: create_update_permission

@@ -1,0 +1,11 @@
+- args:
+    permission:
+      columns:
+      - sub_category_id
+      - category_id
+      - category_name
+      - sub_category_name
+      filter: {}
+    role: anonymous
+    table: category_and_sub
+  type: create_select_permission

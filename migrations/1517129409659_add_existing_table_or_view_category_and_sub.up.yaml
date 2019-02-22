@@ -1,0 +1,3 @@
+- args:
+    name: category_and_sub
+  type: add_existing_table_or_view

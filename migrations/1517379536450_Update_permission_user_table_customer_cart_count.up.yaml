@@ -1,0 +1,9 @@
+- args:
+    permission:
+      columns:
+      - customer_id
+      - sum
+      filter: {}
+    role: user
+    table: customer_cart_count
+  type: create_select_permission

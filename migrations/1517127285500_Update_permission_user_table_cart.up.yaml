@@ -1,0 +1,6 @@
+- args:
+    permission:
+      filter: {}
+    role: user
+    table: cart
+  type: create_delete_permission

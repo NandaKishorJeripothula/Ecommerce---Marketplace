@@ -1,0 +1,11 @@
+- args:
+    role: anonymous
+    table: cart
+  type: drop_insert_permission
+- args:
+    permission:
+      allow_upsert: true
+      check: {}
+    role: anonymous
+    table: cart
+  type: create_insert_permission

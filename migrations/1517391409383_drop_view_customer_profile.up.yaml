@@ -1,0 +1,3 @@
+- args:
+    sql: DROP VIEW "customer_profile"
+  type: run_sql

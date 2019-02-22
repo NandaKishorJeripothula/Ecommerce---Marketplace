@@ -1,0 +1,3 @@
+- args:
+    name: complete_product_info
+  type: add_existing_table_or_view

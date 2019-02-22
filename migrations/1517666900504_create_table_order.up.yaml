@@ -1,0 +1,10 @@
+- args:
+    sql: CREATE TABLE "order"("id" bigserial NOT NULL, "customer_id" bigint NOT NULL,
+      "ordered_date_time" timestamptz NOT NULL DEFAULT now(), "expected_delivery_date_time"
+      timestamptz , "delivered_date_time" bigint , "is_delivered" boolean NOT NULL
+      DEFAULT False, "total_order_price" numeric NOT NULL, "ordered_address_id" bigint
+      NOT NULL, PRIMARY KEY ("id") )
+  type: run_sql
+- args:
+    name: order
+  type: add_existing_table_or_view

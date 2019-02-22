@@ -1,0 +1,16 @@
+{% extends 'base.html'%}
+{%block content%}
+<article>
+    <header>
+        <h1>{% block title%}{{customer}}{% endblock %}</h1>
+    </header>
+    <section>
+        <a href="https://hasura.io/">
+            <figure class="hasura">
+                <img class="hasura" src="{{url_for('static',filename='img/Hasura.png')}}" alt="hasura">
+            </figure>
+            <figcaption>This image is taken from Hasura.io</figcaption>
+        </a>
+    </section>
+</article>
+{% endblock %}

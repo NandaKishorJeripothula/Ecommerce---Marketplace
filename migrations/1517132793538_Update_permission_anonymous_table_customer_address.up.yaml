@@ -1,0 +1,15 @@
+- args:
+    permission:
+      columns:
+      - customer_id
+      - house_number
+      - id
+      - state
+      - street
+      - pincode
+      - city
+      - country
+      filter: {}
+    role: anonymous
+    table: customer_address
+  type: create_select_permission

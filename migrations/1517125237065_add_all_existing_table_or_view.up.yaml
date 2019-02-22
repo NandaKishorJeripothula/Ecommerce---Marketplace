@@ -1,0 +1,3 @@
+- args:
+    name: product
+  type: add_existing_table_or_view

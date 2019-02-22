@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{%block content%}
+	<article>
+		<header>
+        	<h1>{% block title%}Task 7{% endblock %}</h1>
+        </header>
+        <section>
+			<form action="" method="post">
+				{{form.hidden_tag()}}
+				<table>
+					<tr {% if form.first_name.errors%} class="error" {% endif %} >
+						<td>first name: </td>
+						<td>{{form.first_name(size = 50)}}</td>
+					</tr>
+					<tr class="error">
+						<td></td>
+						<td>
+							<ul>
+								{% for error in form.first_name.errors %}
+									<li>{{error}}</li>
+								{% endfor %}
+							</ul>
+						</td>
+					</tr>
+
+					<tr {% if form.last_name.errors%} class="error" {% endif %} >
+						<td>last name: </td>
+						<td>{{form.last_name(size = 50)}}</td>
+					</tr>
+					<tr class="error">
+						<td></td>
+						<td>
+							<ul>
+								{% for error in form.last_name.errors %}
+									<li>{{error}}</li>
+								{% endfor %}
+							</ul>
+						</td>
+					</tr>
+
+					<tr{% if form.email.errors%} class="error" {% endif %} >
+						<td>Please enter your Email: </td>
+						<td>{{form.email()}}</td>
+					</tr>
+					<tr class="error">
+						<td></td>
+						<td>
+							<ul>
+								{% for error in form.email.errors %}
+									<li>{{error}}</li>
+								{% endfor %}
+							</ul>
+						</td>
+					</tr>
+
+					<tr {% if form.phone_number.errors%} class="error" {% endif %} >
+						<td>phone number: </td>
+						<td>{{form.phone_number(size = 50)}}</td>
+					</tr>
+					<tr class="error">
+						<td></td>
+						<td>
+							<ul>
+								{% for error in form.phone_number.errors %}
+									<li>{{error}}</li>
+								{% endfor %}
+							</ul>
+						</td>
+					</tr>
+
+					<tr {% if form.password.errors%} class="error" {% endif %} >
+						<td>password: </td>
+						<td>{{form.password(size = 50)}}</td>
+					</tr>
+					<tr class="error">
+						<td></td>
+						<td>
+							<ul>
+								{% for error in form.password.errors %}
+									<li>{{error}}</li>
+								{% endfor %}
+							</ul>
+						</td>
+					</tr>
+
+					<tr {% if form.password.errors%} class="error" {% endif %} >
+						<td>password: </td>
+						<td>{{form.password2(size = 50)}}</td>
+					</tr>
+					<tr class="error">
+						<td></td>
+						<td>
+							<ul>
+								{% for error in form.password.errors %}
+									<li>{{error}}</li>
+								{% endfor %}
+							</ul>
+						</td>
+					</tr>
+
+
+
+					<tr>
+						<td></td>
+						<td><button type="submit">Submit</button></td>
+					</tr>
+				</table>
+			</form>
+		</section>
+	</article>
+	
+{% endblock %}

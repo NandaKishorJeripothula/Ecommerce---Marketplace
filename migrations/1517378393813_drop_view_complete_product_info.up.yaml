@@ -1,0 +1,3 @@
+- args:
+    sql: DROP VIEW "complete_product_info"
+  type: run_sql

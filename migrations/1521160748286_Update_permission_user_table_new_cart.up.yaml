@@ -1,0 +1,10 @@
+- args:
+    permission:
+      columns:
+      - id
+      - product_id
+      - customer_id
+      filter: {}
+    role: user
+    table: new_cart
+  type: create_update_permission

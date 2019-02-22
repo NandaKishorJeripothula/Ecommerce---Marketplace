@@ -1,0 +1,26 @@
+{% extends 'base.html'%}
+{%block content%}
+<article>
+     <header>
+        <h1>{% block title%}Task 2a{% endblock %}</h1>
+        <h3>Fetches a list of authors</h3>
+    </header>
+<section>
+    <table class="authorsList">
+		<tr>
+			<th colspan="5"  style="text-align: center;">Authors</th>
+    	</tr>
+    	<tr >
+			{%for i in range(1,6)%}
+    			<td >{{authors[i]}} </td>
+    		{% endfor %}
+		</tr>
+    	<tr>
+    		{%for i in range(6,11)%}
+    			<td>{{authors[i]}} </td>
+			{% endfor %}
+    	</tr>
+    </table>
+</section>
+</article>
+{% endblock %}

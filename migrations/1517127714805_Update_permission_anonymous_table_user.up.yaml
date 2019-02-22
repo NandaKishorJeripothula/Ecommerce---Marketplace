@@ -1,0 +1,14 @@
+- args:
+    permission:
+      columns:
+      - hasura_id
+      - password
+      - phone_number
+      - user_id
+      - user_email_address
+      - user_last_name
+      - user_first_name
+      filter: {}
+    role: anonymous
+    table: user
+  type: create_update_permission

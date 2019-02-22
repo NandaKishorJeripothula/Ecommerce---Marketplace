@@ -1,0 +1,38 @@
+{% extends 'base.html'%}
+
+{%block nav%}
+    <nav>
+        <ul>
+            <li><a href="{{url_for('task2a')}}">Task 2a</a></li>
+            <li><a href="{{url_for('task2b')}}">Task 2b</a></li>
+            <li><a href="{{url_for('task2c')}}">Task 2c</a></li>
+        </ul>
+    </nav>
+{% endblock %}
+
+{%block content%}
+<article>
+     <header>
+        <h1>{% block title%}Task 2b{% endblock %}</h1>
+        <h3>Fetches a list of Posts</h3>
+    </header>
+<section>
+    <table class="authorsList">
+		<tr>
+			<th colspan="5"  style="text-align: center;">Posts</th>
+    	</tr>
+    	{% with posts_gen= posts.__iter__()%}
+    	{%for i in range(20)%}
+    	<tr>
+			{%for i in range(5)%}
+    			<td >{{posts_gen.__next__()}} </td>
+    		{% endfor %}
+		</tr>
+		{% endfor %}
+		{% endwith %}
+    </table>
+</section>
+</article>
+{% endblock %}
+{%block sidebar%}
+{% endblock %}

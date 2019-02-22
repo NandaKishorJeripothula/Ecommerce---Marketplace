@@ -1,0 +1,23 @@
+{% extends 'base.html'%}
+{%block content%}
+<article>
+     <header>
+        <h1>{% block title%}Task 2c{% endblock %}</h1>
+        <h3>Authors and count of their posts</h3>
+    </header>
+	<section>
+		<table class="authors">
+			<tr>
+				<th scope="col">Authors</th>
+				<th scope="col">Number of Posts</th>
+			</tr>
+			{% for i in authors_n_posts %}
+			<tr>
+				<td>{{i[0]}}</td>
+				<td>{{i[1]}}</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</section>
+</article>
+{% endblock %}

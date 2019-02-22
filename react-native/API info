@@ -1,0 +1,37 @@
+https://app.banner20.hasura-app.io/
+Response :
+Category and sub category data, user first name,cart items count
+
+https://app.banner20.hasura-app.io/signup
+https://app.banner20.hasura-app.io/seller_signup
+Request parameters:
+
+first_name
+last_name
+email
+phone_number
+Password (minimum length 8 characters)
+Password2
+
+https://app.banner20.hasura-app.io/login
+Request parameters:
+email
+password
+
+https://app.banner20.hasura-app.io/add_product
+( You can only add products if you logged in as seller)
+Request parameters:
+
+product_name
+category
+price
+description
+filename
+
+https://app.banner20.hasura-app.io/product?product_id=10
+Use values from 10 
+
+https://app.banner20.hasura-app.io/displaybysubcategory?sub_category_id=1
+
+https://app.banner20.hasura-app.io/account/profile
+Gives user information

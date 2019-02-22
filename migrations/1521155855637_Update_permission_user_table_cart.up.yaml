@@ -1,0 +1,18 @@
+- args:
+    role: user
+    table: cart
+  type: drop_select_permission
+- args:
+    permission:
+      columns:
+      - id
+      - customer_id
+      - product_id
+      - quantity
+      - created_at
+      - product_price
+      - seller_id
+      filter: {}
+    role: user
+    table: cart
+  type: create_select_permission

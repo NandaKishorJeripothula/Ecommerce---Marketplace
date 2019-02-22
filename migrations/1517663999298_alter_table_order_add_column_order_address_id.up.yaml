@@ -1,0 +1,3 @@
+- args:
+    sql: ALTER TABLE "order" ADD COLUMN "order_address_id" bigint NOT NULL
+  type: run_sql

@@ -1,0 +1,10 @@
+- args:
+    permission:
+      columns:
+      - id
+      - name
+      - category_id
+      filter: {}
+    role: anonymous
+    table: sub_category
+  type: create_update_permission

@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name":"MockShoppingApp-HPDF",
+    "icon":"./logo.png",
+    "version":"1.0.0",
+    "slug": "shoppinghpdf",
+    "sdkVersion": "23.0.0",
+    "orientation":"portrait",
+    "ios": {
+      "bundleIdentifier": "com.agzuniverse.mockshophpdf"
+    },
+    "android": {
+      "package": "com.agzuniverse.mockshophpdf"
+    }
+  }
+}

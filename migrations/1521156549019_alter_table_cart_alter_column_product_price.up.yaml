@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "cart" ALTER COLUMN "product_price" TYPE numeric;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "cart" ALTER COLUMN "product_price" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "cart" ALTER COLUMN "product_price" DROP NOT NULL;
+  type: run_sql

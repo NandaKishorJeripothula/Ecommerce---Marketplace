@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "product_image" ALTER COLUMN "seller_id" TYPE bigint;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "product_image" ALTER COLUMN "seller_id" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "product_image" ALTER COLUMN "seller_id" DROP NOT NULL;
+  type: run_sql

@@ -1,0 +1,16 @@
+- args:
+    role: anonymous
+    table: product_image
+  type: drop_select_permission
+- args:
+    permission:
+      columns:
+      - id
+      - product_id
+      - sequence_number
+      - url
+      - seller_id
+      filter: {}
+    role: anonymous
+    table: product_image
+  type: create_select_permission

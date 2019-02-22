@@ -1,0 +1,7 @@
+flask
+requests
+gunicorn
+flask_wtf
+flask_debugtoolbar
+
+# add new packages one per each line

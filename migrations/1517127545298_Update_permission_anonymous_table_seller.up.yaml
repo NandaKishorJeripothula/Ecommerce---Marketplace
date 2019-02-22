@@ -1,0 +1,6 @@
+- args:
+    permission:
+      filter: {}
+    role: anonymous
+    table: seller
+  type: create_delete_permission

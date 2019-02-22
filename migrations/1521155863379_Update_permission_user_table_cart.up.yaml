@@ -1,0 +1,18 @@
+- args:
+    role: user
+    table: cart
+  type: drop_update_permission
+- args:
+    permission:
+      columns:
+      - product_price
+      - created_at
+      - customer_id
+      - id
+      - seller_id
+      - product_id
+      - quantity
+      filter: {}
+    role: user
+    table: cart
+  type: create_update_permission

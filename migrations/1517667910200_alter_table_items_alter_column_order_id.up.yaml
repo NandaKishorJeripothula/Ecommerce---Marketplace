@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "items" ALTER COLUMN "order_id" TYPE bigint;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "items" ALTER COLUMN "order_id" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "items" ALTER COLUMN "order_id" SET NOT NULL;
+  type: run_sql
