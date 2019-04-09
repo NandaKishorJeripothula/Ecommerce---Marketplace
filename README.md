@@ -1,27 +1,22 @@
 # Ecommerce - Marketplace
 ### ***An ecommerce app with a multiple sellers like the Flipkart or Amazon apps.***
 
-> This repo was private and made public on 22-Feb-2019
-
+**This repo was private and made public on 22-Feb-2019**
+**Currently this repo is opensourced, feel free to utilize the setup**
 > This is a Updated and Final version of [Elikart](https://github.com/NandaKishorJeripothula/Elikart) Repo
 
 > Application Preview is available at the bottom of this doc.
 ## Collaborators
-### ReactJS
+### React (ReactJS & ReactNative)
 *   Nanda Kishor Jeripothula (  j.kishor.bd@gmail.com )
-*   Gajula Karthik Kumar 
 
 ### Python Flask
 *   Gajula Karthik Kumar 
 
-### React Native
-*   Aswin Ganesh 
-*   Diviya 
 ### Web App Link :
 https://ui.banner20.hasura-app.io/
 ### Mobile App Link :
 https://drive.google.com/open?id=1wvOLauNO7QAU9zxFQ802wmdOax8w_paZ
-
 
 ## Ecommerce application
 The objective was to create a clone of a popular eCommerce application like Flipkart or Amazon.
@@ -47,6 +42,8 @@ Visit https://ui.banner20.hasura-app.io for the web app, or download and install
 *   Add product allows users with seller accounts to upload image and add product data, which then becomes available in the application.
 
 ## Application Snapshots
+**Note: Due to the size, the snaps might be presented in enlarged view**
+
 [web_home]:snaps/web_home.jpg
 [web_item]:snaps/web_item.jpg
 [web_list]:snaps/web_list.jpg
